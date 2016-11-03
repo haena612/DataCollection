@@ -8,13 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		E70354271DB305D700190518 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70354261DB305D700190518 /* AppDelegate.swift */; };
-		E70354291DB305D700190518 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70354281DB305D700190518 /* ViewController.swift */; };
-		E703542C1DB305D700190518 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E703542A1DB305D700190518 /* Main.storyboard */; };
 		E703542F1DB305D700190518 /* FinalFiftyFeetProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E703542D1DB305D700190518 /* FinalFiftyFeetProject.xcdatamodeld */; };
 		E70354311DB305D700190518 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E70354301DB305D700190518 /* Assets.xcassets */; };
 		E70354341DB305D700190518 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E70354321DB305D700190518 /* LaunchScreen.storyboard */; };
 		E703543F1DB305D700190518 /* FinalFiftyFeetProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E703543E1DB305D700190518 /* FinalFiftyFeetProjectTests.swift */; };
 		E703544A1DB305D700190518 /* FinalFiftyFeetProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70354491DB305D700190518 /* FinalFiftyFeetProjectUITests.swift */; };
+		E70354581DB3063400190518 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70354571DB3063400190518 /* FirstViewController.swift */; };
+		E703545B1DB3080E00190518 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E703545A1DB3080E00190518 /* SecondViewController.swift */; };
+		E703545E1DB30A8400190518 /* Work.swift in Sources */ = {isa = PBXBuildFile; fileRef = E703545D1DB30A8400190518 /* Work.swift */; };
+		E70354621DB30AE200190518 /* WorkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70354611DB30AE200190518 /* WorkList.swift */; };
+		E70354651DB30CA600190518 /* AddCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70354641DB30CA600190518 /* AddCell.swift */; };
+		E70354671DB499BF00190518 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70354661DB499BF00190518 /* MapViewController.swift */; };
+		E706BFA11DCAF7C0005D015F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E706BF9F1DCAF7C0005D015F /* Main.storyboard */; };
+		E7106C0B1DB5CC66000A9163 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7106C0A1DB5CC66000A9163 /* Location.swift */; };
+		E727CDF81DC3D38F007DE1E4 /* StreetLocationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E727CDF71DC3D38F007DE1E4 /* StreetLocationTableViewCell.swift */; };
+		E773FA921DBC374700A04B68 /* SurfJournalDatabase.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = E773FA8F1DBC374700A04B68 /* SurfJournalDatabase.sqlite */; };
+		E773FA931DBC374700A04B68 /* SurfJournalDatabase.sqlite-shm in Resources */ = {isa = PBXBuildFile; fileRef = E773FA901DBC374700A04B68 /* SurfJournalDatabase.sqlite-shm */; };
+		E773FA941DBC374700A04B68 /* SurfJournalDatabase.sqlite-wal in Resources */ = {isa = PBXBuildFile; fileRef = E773FA911DBC374700A04B68 /* SurfJournalDatabase.sqlite-wal */; };
+		E780B6A21DC93C930004AFD7 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E780B6A11DC93C930004AFD7 /* CoreDataStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +48,6 @@
 /* Begin PBXFileReference section */
 		E70354231DB305D700190518 /* FinalFiftyFeetProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalFiftyFeetProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E70354261DB305D700190518 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E70354281DB305D700190518 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E703542B1DB305D700190518 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E703542E1DB305D700190518 /* FinalFiftyFeetProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FinalFiftyFeetProject.xcdatamodel; sourceTree = "<group>"; };
 		E70354301DB305D700190518 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E70354331DB305D700190518 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +58,20 @@
 		E70354451DB305D700190518 /* FinalFiftyFeetProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalFiftyFeetProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E70354491DB305D700190518 /* FinalFiftyFeetProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalFiftyFeetProjectUITests.swift; sourceTree = "<group>"; };
 		E703544B1DB305D700190518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E70354571DB3063400190518 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		E703545A1DB3080E00190518 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		E703545D1DB30A8400190518 /* Work.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Work.swift; sourceTree = "<group>"; };
+		E70354611DB30AE200190518 /* WorkList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkList.swift; sourceTree = "<group>"; };
+		E70354641DB30CA600190518 /* AddCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCell.swift; sourceTree = "<group>"; };
+		E70354661DB499BF00190518 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = ../MapViewController.swift; sourceTree = "<group>"; };
+		E706BFA01DCAF7C0005D015F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../FinalFiftyFeetProject 4/FinalFiftyFeetProject/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		E7106C0A1DB5CC66000A9163 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		E727CDF41DC3CCDF007DE1E4 /* WilsonCeremicLabLocation.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = WilsonCeremicLabLocation.gpx; sourceTree = "<group>"; };
+		E727CDF71DC3D38F007DE1E4 /* StreetLocationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreetLocationTableViewCell.swift; sourceTree = "<group>"; };
+		E773FA8F1DBC374700A04B68 /* SurfJournalDatabase.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = SurfJournalDatabase.sqlite; sourceTree = "<group>"; };
+		E773FA901DBC374700A04B68 /* SurfJournalDatabase.sqlite-shm */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SurfJournalDatabase.sqlite-shm"; sourceTree = "<group>"; };
+		E773FA911DBC374700A04B68 /* SurfJournalDatabase.sqlite-wal */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SurfJournalDatabase.sqlite-wal"; sourceTree = "<group>"; };
+		E780B6A11DC93C930004AFD7 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +102,7 @@
 		E703541A1DB305D600190518 = {
 			isa = PBXGroup;
 			children = (
+				E727CDF41DC3CCDF007DE1E4 /* WilsonCeremicLabLocation.gpx */,
 				E70354251DB305D700190518 /* FinalFiftyFeetProject */,
 				E703543D1DB305D700190518 /* FinalFiftyFeetProjectTests */,
 				E70354481DB305D700190518 /* FinalFiftyFeetProjectUITests */,
@@ -99,9 +123,11 @@
 		E70354251DB305D700190518 /* FinalFiftyFeetProject */ = {
 			isa = PBXGroup;
 			children = (
+				E70354631DB30C8100190518 /* Cell */,
+				E703545C1DB30A7400190518 /* Model */,
+				E70354591DB307AB00190518 /* ViewController */,
 				E70354261DB305D700190518 /* AppDelegate.swift */,
-				E70354281DB305D700190518 /* ViewController.swift */,
-				E703542A1DB305D700190518 /* Main.storyboard */,
+				E773FA8E1DBC374600A04B68 /* CoreDataSeed */,
 				E70354301DB305D700190518 /* Assets.xcassets */,
 				E70354321DB305D700190518 /* LaunchScreen.storyboard */,
 				E70354351DB305D700190518 /* Info.plist */,
@@ -127,6 +153,47 @@
 			);
 			path = FinalFiftyFeetProjectUITests;
 			sourceTree = "<group>";
+		};
+		E70354591DB307AB00190518 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E70354571DB3063400190518 /* FirstViewController.swift */,
+				E703545A1DB3080E00190518 /* SecondViewController.swift */,
+				E70354661DB499BF00190518 /* MapViewController.swift */,
+				E706BF9F1DCAF7C0005D015F /* Main.storyboard */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		E703545C1DB30A7400190518 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E703545D1DB30A8400190518 /* Work.swift */,
+				E70354611DB30AE200190518 /* WorkList.swift */,
+				E780B6A11DC93C930004AFD7 /* CoreDataStack.swift */,
+				E7106C0A1DB5CC66000A9163 /* Location.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E70354631DB30C8100190518 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E70354641DB30CA600190518 /* AddCell.swift */,
+				E727CDF71DC3D38F007DE1E4 /* StreetLocationTableViewCell.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		E773FA8E1DBC374600A04B68 /* CoreDataSeed */ = {
+			isa = PBXGroup;
+			children = (
+				E773FA8F1DBC374700A04B68 /* SurfJournalDatabase.sqlite */,
+				E773FA901DBC374700A04B68 /* SurfJournalDatabase.sqlite-shm */,
+				E773FA911DBC374700A04B68 /* SurfJournalDatabase.sqlite-wal */,
+			);
+			path = CoreDataSeed;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -196,6 +263,7 @@
 				TargetAttributes = {
 					E70354221DB305D700190518 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 58YA7YLU96;
 					};
 					E70354391DB305D700190518 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -234,7 +302,10 @@
 			files = (
 				E70354341DB305D700190518 /* LaunchScreen.storyboard in Resources */,
 				E70354311DB305D700190518 /* Assets.xcassets in Resources */,
-				E703542C1DB305D700190518 /* Main.storyboard in Resources */,
+				E773FA931DBC374700A04B68 /* SurfJournalDatabase.sqlite-shm in Resources */,
+				E706BFA11DCAF7C0005D015F /* Main.storyboard in Resources */,
+				E773FA941DBC374700A04B68 /* SurfJournalDatabase.sqlite-wal in Resources */,
+				E773FA921DBC374700A04B68 /* SurfJournalDatabase.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +330,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E70354291DB305D700190518 /* ViewController.swift in Sources */,
+				E703545B1DB3080E00190518 /* SecondViewController.swift in Sources */,
+				E70354651DB30CA600190518 /* AddCell.swift in Sources */,
+				E7106C0B1DB5CC66000A9163 /* Location.swift in Sources */,
 				E70354271DB305D700190518 /* AppDelegate.swift in Sources */,
+				E70354621DB30AE200190518 /* WorkList.swift in Sources */,
+				E70354671DB499BF00190518 /* MapViewController.swift in Sources */,
+				E780B6A21DC93C930004AFD7 /* CoreDataStack.swift in Sources */,
+				E703545E1DB30A8400190518 /* Work.swift in Sources */,
 				E703542F1DB305D700190518 /* FinalFiftyFeetProject.xcdatamodeld in Sources */,
+				E727CDF81DC3D38F007DE1E4 /* StreetLocationTableViewCell.swift in Sources */,
+				E70354581DB3063400190518 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,20 +376,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E703542A1DB305D700190518 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E703542B1DB305D700190518 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E70354321DB305D700190518 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				E70354331DB305D700190518 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E706BF9F1DCAF7C0005D015F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E706BFA01DCAF7C0005D015F /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -403,10 +482,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = FinalFiftyFeetProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HK.FinalFiftyFeetProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -414,10 +497,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = FinalFiftyFeetProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HK.FinalFiftyFeetProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -486,6 +573,7 @@
 				E70354501DB305D700190518 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E70354511DB305D700190518 /* Build configuration list for PBXNativeTarget "FinalFiftyFeetProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +582,7 @@
 				E70354531DB305D700190518 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E70354541DB305D700190518 /* Build configuration list for PBXNativeTarget "FinalFiftyFeetProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +591,7 @@
 				E70354561DB305D700190518 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

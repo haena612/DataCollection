@@ -1,10 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
    LastUpgradeVersion = "0730"
-   version = "1.3">
+   version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E70354221DB305D700190518"
+               BuildableName = "FinalFiftyFeetProject.app"
+               BlueprintName = "FinalFiftyFeetProject"
+               ReferencedContainer = "container:FinalFiftyFeetProject.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E70354391DB305D700190518"
+               BuildableName = "FinalFiftyFeetProjectTests.xctest"
+               BlueprintName = "FinalFiftyFeetProjectTests"
+               ReferencedContainer = "container:FinalFiftyFeetProject.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E70354441DB305D700190518"
+               BuildableName = "FinalFiftyFeetProjectUITests.xctest"
+               BlueprintName = "FinalFiftyFeetProjectUITests"
+               ReferencedContainer = "container:FinalFiftyFeetProject.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "E70354221DB305D700190518"
+            BuildableName = "FinalFiftyFeetProject.app"
+            BlueprintName = "FinalFiftyFeetProject"
+            ReferencedContainer = "container:FinalFiftyFeetProject.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,8 +71,22 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "E70354221DB305D700190518"
+            BuildableName = "FinalFiftyFeetProject.app"
+            BlueprintName = "FinalFiftyFeetProject"
+            ReferencedContainer = "container:FinalFiftyFeetProject.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
+      <LocationScenarioReference
+         identifier = "San Francisco, CA, USA"
+         referenceType = "1">
+      </LocationScenarioReference>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -35,6 +94,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "E70354221DB305D700190518"
+            BuildableName = "FinalFiftyFeetProject.app"
+            BlueprintName = "FinalFiftyFeetProject"
+            ReferencedContainer = "container:FinalFiftyFeetProject.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
